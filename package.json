@@ -1,6 +1,6 @@
 {
 	"name": "dgshivu",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"description": "My CLI",
 	"keywords": [
 		"dgshivu",
@@ -29,7 +29,8 @@
 	},
 	"files": [
 		"cli.js",
-		"ui.js"
+		"ui.js",
+		"choices.js"
 	],
 	"dependencies": {
 		"import-jsx": "^4.0.0",
