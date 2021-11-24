@@ -16,7 +16,6 @@
 	"main": "cli.js",
 	"author": "D G Shivu <dgshivu3232@gmail.com> (https://portfolio.gorva.me) ",
 	"license": "MIT",
-	"private": "false",
 	"bin": "cli.js",
 	"engines": {
 		"node": ">=10"
