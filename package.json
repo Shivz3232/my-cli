@@ -1,0 +1,75 @@
+{
+	"name": "dgshivu",
+	"version": "1.0.0",
+	"description": "My CLI",
+	"keywords": [
+		"dgshivu",
+		"cli",
+		"ink"
+	],
+	"bugs": {
+    "url": "https://github.com/Shivz3232/my-cli/issues",
+    "email": "dgshivu3232@gmail.com"
+  },
+	"homepage": "https://github.com/Shivz3232/my-cli",
+	"email": "dgshivu3232@gmail.com",
+	"main": "cli.js",
+	"author": "D G Shivu <dgshivu3232@gmail.com> (https://portfolio.gorva.me) ",
+	"license": "MIT",
+	"private": "false",
+	"bin": "cli.js",
+	"engines": {
+		"node": ">=10"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Shivz3232/my-cli.git"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js",
+		"ui.js"
+	],
+	"dependencies": {
+		"import-jsx": "^4.0.0",
+		"ink": "^3.2.0",
+		"ink-big-text": "^1.2.0",
+		"ink-gradient": "^2.0.0",
+		"meow": "^9.0.0",
+		"open": "^8.4.0",
+		"react": "^17.0.2"
+	},
+	"devDependencies": {
+		"@ava/babel": "^2.0.0",
+		"@babel/preset-env": "^7.16.4",
+		"@babel/preset-react": "^7.16.0",
+		"@babel/register": "^7.16.0",
+		"ava": "^3.15.0",
+		"chalk": "^4.1.2",
+		"eslint-config-xo-react": "^0.25.0",
+		"eslint-plugin-react": "^7.27.1",
+		"eslint-plugin-react-hooks": "^4.3.0",
+		"ink-testing-library": "^2.1.0",
+		"xo": "^0.39.1"
+	},
+	"ava": {
+		"babel": true,
+		"require": [
+			"@babel/register"
+		]
+	},
+	"babel": {
+		"presets": [
+			"@babel/preset-env",
+			"@babel/preset-react"
+		]
+	},
+	"xo": {
+		"extends": "xo-react",
+		"rules": {
+			"react/prop-types": "off"
+		}
+	}
+}
