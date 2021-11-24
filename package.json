@@ -8,9 +8,9 @@
 		"ink"
 	],
 	"bugs": {
-    "url": "https://github.com/Shivz3232/my-cli/issues",
-    "email": "dgshivu3232@gmail.com"
-  },
+		"url": "https://github.com/Shivz3232/my-cli/issues",
+		"email": "dgshivu3232@gmail.com"
+	},
 	"homepage": "https://github.com/Shivz3232/my-cli",
 	"email": "dgshivu3232@gmail.com",
 	"main": "cli.js",
